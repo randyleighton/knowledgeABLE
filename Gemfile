@@ -1,12 +1,13 @@
 source 'https://rubygems.org'
 
+
 gem 'autoprefixer-rails'
 gem 'bootstrap-sass'
 gem 'font-awesome-rails'
 gem 'haml'
 gem 'jquery-rails'
 gem 'pg'
-gem 'rails'
+gem 'rails', '~>4.2.1'
 gem 'sass-rails'
 gem "simple_form"
 gem 'turbolinks'
