@@ -1,0 +1,100 @@
+@import "sass_styles.scss";
+
+.bgvideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -9999;
+}
+
+.welcome-head {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  h3 {
+    color: $cardinal;
+    margin-bottom: .9em;
+  }
+
+  h1 {
+    color: black;
+    text-shadow: 0 .5px 0 $button-pri;
+  }
+  a {
+    color: black;
+    text-shadow: 0 .5px 0 $button-pri;
+  }
+
+}
+.welcome-body {
+  margin: .75em 0 0 0;
+}
+
+.image-div {
+  display: block;
+  margin: 0 auto;
+  padding: .5em .5em;
+  text-align: center;
+  p {
+    margin: .5em;
+    padding:0 2px;
+    font-size: 1.1em;
+    font-weight: bold;
+  }
+}
+
+.image-style, .ss-images {
+@include rounded-corners(5px);
+@include shadowed-corners(#696969);
+max-width: 90%;
+height: auto;
+}
+
+.ss-images {
+  max-height: 150px;
+}
+
+.guest-style {
+  background: -webkit-radial-gradient(circle, $button-sec, $button-pri) !important;
+  margin-bottom: 10px !important;
+  &:hover {
+    background: -webkit-radial-gradient(circle, $button-pri, $button-sec) !important;
+    color: $cardinal !important;
+    text-shadow: 0 1px 1px black;
+  }
+}
+
+.r1 {
+  padding: 1em;
+  background-color: white;
+  div p {
+    margin-left: 1em;
+  }
+  h2 {
+    margin: 0 0 .5em;
+    text-align: center;
+    color: $cardinal;
+    text-shadow: 0 .5px 0 $button-pri;
+  }
+}
+.r2 {
+  padding: 1em;
+  h2 {
+    margin: 0 0 .5em;
+    text-align: center;
+    color: $cardinal;
+    text-shadow: 0 .5px 0 $button-pri;
+    span {
+      color: black;
+    }
+  }
+}
+
+
+
+
+
