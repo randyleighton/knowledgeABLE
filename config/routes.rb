@@ -1,5 +1,6 @@
-KnowledgeABLE::Application.routes.draw do
+# KnowledgeABLE::Application.routes.draw do
+Rails.application.routes.draw do
 
-root to: 'welcome#index'
-resources :articles
+  root to: 'welcome#index'
+  resources :articles
 end
